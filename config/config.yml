@@ -1,0 +1,11 @@
+default: &default
+  BREWERYDB_KEY: d49c00860f2e918d2b5940a67d0eb79b
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
